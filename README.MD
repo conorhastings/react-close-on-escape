@@ -6,7 +6,7 @@ Simple HOC to close enclosed react component on press of escape key (or really c
 ```jsx
 import CloseOnEscape from 'react-close-on-escape';
 
-const Component = ({ onEscape }) => <CloseOnEscape><span>some stuff here</CloseOnEscape>;
+const Component = ({ onEscape }) => <CloseOnEscape onEscape={onEscape}><span>some stuff here</span></CloseOnEscape>;
 ```
 
 :wave:
