@@ -21,7 +21,7 @@ export default class CloseOnEscape extends Component {
   }
 
   render() {
-    return <span onEscape={this.props.onEscape}>{this.props.children}</span>;
+    return <span>{this.props.children}</span>;
   }
 }
 
