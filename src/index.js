@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component, PropTypes, Children } from 'react';
 
 export default class CloseOnEscape extends Component {
   constructor() {
@@ -21,7 +21,7 @@ export default class CloseOnEscape extends Component {
   }
 
   render() {
-    return <span>{this.props.children}</span>;
+    return Children.only(this.props.children);
   }
 }
 
