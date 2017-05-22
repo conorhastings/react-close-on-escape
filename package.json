@@ -30,7 +30,7 @@
     "babel-preset-react": "^6.5.0"
   },
   "peerDependencies": {
-    "prop-types": ">15.5.0",
-    "react": ">15.5.0"
+    "prop-types": ">=15.5.0",
+    "react": ">=15.5.0"
   }
 }
