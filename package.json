@@ -1,6 +1,6 @@
 {
   "name": "react-close-on-escape",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "close react component on press escape",
   "main": "dist/index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "babel-preset-react": "^6.5.0"
   },
   "peerDependencies": {
-    "react": ">=0.14.0"
+    "prop-types": ">15.5.0",
+    "react": ">15.5.0"
   }
 }
