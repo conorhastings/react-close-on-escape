@@ -1,6 +1,6 @@
 {
   "name": "react-close-on-escape",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "close react component on press escape",
   "main": "dist/index.js",
   "scripts": {
