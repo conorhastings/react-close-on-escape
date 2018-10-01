@@ -1,4 +1,4 @@
-import React, { Component, Children } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class CloseOnEscape extends Component {
@@ -22,7 +22,7 @@ export default class CloseOnEscape extends Component {
   }
 
   render() {
-    return Children.only(this.props.children);
+    return this.props.children;
   }
 }
 
